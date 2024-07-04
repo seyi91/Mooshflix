@@ -1,0 +1,109 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.home-page-hero-bg {
+    background-image: url(../images/stranger-things-season-5.jpeg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: black;
+    z-index: -1;
+}
+
+.home-page-header {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.header-item {
+    padding: 0px 10px 0px 10px;
+}
+
+.hero-card-featured-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    position: relative;
+    top: 15%;
+    margin-left: 100px;
+}
+
+.n-series {
+    display: flex;
+    align-items: center;
+}
+
+.series-font {
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: lightgray;
+}
+
+.netflix-n-logo {
+    max-height: 30px;
+    margin-bottom: 5px;
+}
+
+.st-logo {
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+
+.fc-rank {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.fc-desc {
+    margin-bottom: 15px;
+}
+
+.fc-btn {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.primary-btn {
+    background-color: rgb(217, 217, 217);
+}
+
+.secondary-btn {
+    background-color: rgb(70, 69, 69);
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.popular-list {
+    height: 150px;
+    width: 100%;
+    z-index: 1;
+}
+
+.pl-title {
+    margin: 5px 0px 5px 100px;
+    font-weight: 600;
+}
+
+.pl-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-card {
+    margin: 5px 5px;
+    min-width: 265px;
+    height: 150px;
+    background-image: url(../images/suits-thumbnail.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
