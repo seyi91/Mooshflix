@@ -16,7 +16,15 @@
 
 .home-page-header {
     margin-left: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    margin-right: 20px;
 }
 
 .header-item {
@@ -29,7 +37,7 @@
     max-width: 500px;
     position: relative;
     top: 15%;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .n-series {
@@ -81,6 +89,20 @@
     background-color: rgb(70, 69, 69);
     color: #ffffff;
     opacity: 0.8;
+}
+
+.preview-player {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+    background-color: black;
+}
+
+.dismiss-btn {
+    margin-bottom: 20px;
 }
 
 .popular-list {
