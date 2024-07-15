@@ -60,7 +60,7 @@ const HomePage = () => {
         ) : (
           <div className="preview-player">
             <iframe
-              width="100%"
+              width="90%"
               height="550"
               src="https://www.youtube.com/embed/CKtq-bZgS8I?si=O13a_jM6wHZHH4F0?autoplay=1"
               title="YouTube video player"
