@@ -1,4 +1,4 @@
-# Welcome to Flix, the Netflix clone project! 
+# Welcome to Mooshflix, the Netflix clone project! 
 
 To view and interact with this project locally, clone the branch and run `npm start` from the root project directory.
 
