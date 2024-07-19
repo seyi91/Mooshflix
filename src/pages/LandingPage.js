@@ -14,7 +14,7 @@ const LandingPage = () => {
             <option>English</option>
           </select>
           <Link to="Home">
-            <button className="lp-header__signin-btn">Sign In</button>
+            <button className="lp-header__enter-btn">Enter</button>
           </Link>
         </div>
       </header>
@@ -37,9 +37,11 @@ const LandingPage = () => {
                 placeholder="Email Address"
                 type="email"
               ></input>
-              <button className="lp-hero-card__email-form-btn">
-                Get Started{" "}
-              </button>
+              <Link to="Home">
+                <button className="lp-hero-card__email-form-btn">
+                  Get Started
+                </button>
+              </Link>
             </form>
           </div>
         </div>
