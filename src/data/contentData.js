@@ -66,7 +66,7 @@ export const topPicksContent = [
   },
   {
     name: "Dexter",
-    thumbnail: '../thumbnails/top-picks/Dexter-thumbnail.jpeg'
+    thumbnail: '../thumbnails/top-picks/dexter-thumbnail.jpeg'
   },
   {
     name: "One Piece",
