@@ -26,7 +26,7 @@ const LandingPage = () => {
           <h2 className="lp-hero-card__subtitle">
             Watch anywhere. Cancel anytime.
           </h2>
-          <div>
+          <div className="lp-hero-card__form-container">
             <h3 className="lp-hero-card__email-form-title">
               Ready to watch? Enter your email to create or restart your
               membership.

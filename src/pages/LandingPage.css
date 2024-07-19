@@ -13,7 +13,7 @@
     display: flex;
     flex-flow: row nowrap;
     z-index: 1;
-    padding: 1.25rem 3.25rem 1.25rem 1.875rem;
+    padding: 1.25rem 1.875rem;
 }
 
 .logo {
@@ -29,7 +29,7 @@
     background-color: black;
     opacity: 0.8;
     border-radius: 5%;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 1rem;
     font-family: 'Helvetica Neue';
 }
@@ -80,15 +80,18 @@
     margin: 1rem auto;
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
+}
 
+.lp-hero-card__form-container {
+    margin: 0 30px;
 }
 
 .lp-hero-card__email-form-title {
     font-size: 1.25rem;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 400;
+    text-align: center;
 }
 
 form { 
@@ -157,4 +160,35 @@ form {
     text-decoration: underline;
     display: flex;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .lp-header__enter-btn {
+        width: 70px;
+    }
+
+    .lp-hero-card__title {
+        margin: 0 1.875rem;
+        font-size: 2rem;
+    }
+
+    .lp-hero-card__subtitle {
+        margin: 1rem 1.875rem 1.5rem 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    .lp-hero-card__email-form-title {
+        font-size: 1rem;
+    }
+
+    .lp-hero-card__email-form-btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .lp-header__language-select {
+        margin-right: 0.2rem;
+        width: 50px
+    }
 }
