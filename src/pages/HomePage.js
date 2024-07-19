@@ -24,8 +24,8 @@ const HomePage = () => {
     <>
       <header className="home-page-header">
         <Link to="/"><img className="logo" src={MooshflixLogo} alt="" /></Link>
-        <span className="header-item active">Home</span>
-        {/* <span className="header-item">TV Shows</span>
+        {/* <span className="header-item active">Home</span>
+        <span className="header-item">TV Shows</span>
         <span className="header-item">Movies</span>
         <span className="header-item">New & Popular</span>
         <span className="header-item">My List</span>

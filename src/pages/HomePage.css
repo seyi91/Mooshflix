@@ -135,6 +135,9 @@ body {
     .home-page-header {
         background-color: black;
         width: 100%;
+        justify-content: center;
+        height: 50px;
+        box-shadow: black 0 5px 10px;
     }
     
     .hero-card-featured-content {
